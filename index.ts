@@ -14,14 +14,77 @@
 //   age: 22,
 // };
 
-
-
 //Interface
-let userDeatils: { name: string; age: number } = {
-  name: "Madhav",
-  age: 22,
-};
 
+// interface Details{
+//   name:string;
+//   age:number;
+//   getName: () => void;
+// }
 
+// let userDeatils:  Details = {
+//   name: "Madhav",
+//   age:22,
+//   getName() {
+//     console.log(this.name);
 
+//   },
+// };
 
+//Type
+
+// type Details = {
+//   name: string;
+//   age: number;
+//   getName: () => void;
+// };
+
+// let userDeatils:  Details = {
+//   name: "Madhav",
+//   age:22,
+//   getName() {
+//     console.log(this.name);
+
+//   },
+// };
+
+// Union/Optional
+
+// type Details = {
+//   name: string;
+//   age: number | string;
+//   getName: () => void;
+// };
+
+// let userDeatils:  Details = {
+//   name: "Madhav",
+//   age:"22",
+//   getName() {
+//     console.log(this.name);
+
+//   },
+// };
+
+// let skills: (string | number | boolean)[] = ["js", "css", "ts", 12, 33,false];
+
+// Functions
+
+// type Details = {
+//   name: string;
+//   age: number | string;
+//   getName: () => void;
+// };
+
+// let userDeatils: Details = {
+//   name: "Madhav",
+//   age: "22",
+//   getName() {
+//     console.log(this.name);
+//   },
+// };
+
+// function getUserName(userDeatils: Details) {
+//   return userDeatils.name;
+// }
+
+// getUserName(userDeatils);
